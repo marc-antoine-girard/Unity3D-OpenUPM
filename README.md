@@ -1,20 +1,20 @@
 <p align="center">
     <img alt="GitHub package.json version" src ="https://img.shields.io/github/package-json/v/marc-antoine-girard/Unity3D-OpenUPM" />
     <a href="https://openupm.com/packages/com.marc-antoine-girard.openupm/">
-        <img src="https://img.shields.io/npm/v/com.marc-antoine-girard.runtimescene?label=openupm&registry_uri=https://package.openupm.com" />
+        <img src="https://img.shields.io/npm/v/com.marc-antoine-girard.openupm?label=openupm&registry_uri=https://package.openupm.com" />
     </a>
     <br>
-    <a href="https://github.com/marc-antoine-girard/Unity3D-RuntimeScene/issues">
-        <img alt="GitHub issues" src ="https://img.shields.io/github/issues/marc-antoine-girard/Unity3D-RuntimeScene" />
+    <a href="https://github.com/marc-antoine-girard/Unity3D-OpenUPM/issues">
+        <img alt="GitHub issues" src ="https://img.shields.io/github/issues/marc-antoine-girard/Unity3D-OpenUPM" />
     </a>
-    <a href="https://github.com/marc-antoine-girard/Unity3D-RuntimeScene/pulls">
-        <img alt="GitHub pull requests" src ="https://img.shields.io/github/issues-pr/marc-antoine-girard/Unity3D-RuntimeScene" />
+    <a href="https://github.com/marc-antoine-girard/Unity3D-OpenUPM/pulls">
+        <img alt="GitHub pull requests" src ="https://img.shields.io/github/issues-pr/marc-antoine-girard/Unity3D-OpenUPM" />
     </a>
-    <img alt="GitHub last commit" src ="https://img.shields.io/github/last-commit/marc-antoine-girard/Unity3D-RuntimeScene" />
-    <a href="https://github.com/marc-antoine-girard/Unity3D-RuntimeScene/blob/main/LICENSE.md">
-        <img alt="GitHub license" src ="https://img.shields.io/github/license/marc-antoine-girard/Unity3D-RuntimeScene" />
+    <img alt="GitHub last commit" src ="https://img.shields.io/github/last-commit/marc-antoine-girard/Unity3D-OpenUPM" />
+    <a href="https://github.com/marc-antoine-girard/Unity3D-OpenUPM/blob/main/LICENSE.md">
+        <img alt="GitHub license" src ="https://img.shields.io/github/license/marc-antoine-girard/Unity3D-OpenUPM" />
     </a>
-    <a href="https://www.codacy.com/gh/marc-antoine-girard/Unity3D-RuntimeScene/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marc-antoine-girard/Unity3D-RuntimeScene&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/bfb6566973e14907a06ec82ea35016ea"/>
+    <a href="https://www.codacy.com/gh/marc-antoine-girard/Unity3D-OpenUPM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marc-antoine-girard/Unity3D-OpenUPM&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/bfb6566973e14907a06ec82ea35016ea"/>
     </a>
 
 </p>
