@@ -1,6 +1,6 @@
 {
     "name": "ShackLab.OpenUPM.Editor",
-    "rootNamespace": "",
+    "rootNamespace": "ShackLab.OpenUPM.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"
