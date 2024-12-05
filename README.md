@@ -14,18 +14,16 @@
     <a href="https://github.com/marc-antoine-girard/Unity3D-OpenUPM/blob/main/LICENSE.md">
         <img alt="GitHub license" src ="https://img.shields.io/github/license/marc-antoine-girard/Unity3D-OpenUPM" />
     </a>
-    <a href="https://www.codacy.com/gh/marc-antoine-girard/Unity3D-OpenUPM/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=marc-antoine-girard/Unity3D-OpenUPM&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/bfb6566973e14907a06ec82ea35016ea"/>
-    </a>
+<a href="https://app.codacy.com/gh/marc-antoine-girard/Unity3D-OpenUPM/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/dc8298eb60e445dc98bad637c3df24bd"/></a>    </a>
 
 </p>
 
 # Unity3D-OpenUPM
 
-Adds the option to install openupm package from the Package Manager
+Install openupm package right from the Package Manager
 
 ## Summary
 
-- `TODO`
 
 ## Installation
 
@@ -44,7 +42,12 @@ openupm add com.marc-antoine-girard.openupm
 
 ## Usage
 
-Here's a simple example on how to use it:
+- In Window → Package Manager → `+` → `Install package from OpenUPM...`
+- Enter the name of the package you want to install. Ex.
+  - `com.marc-antoine-girard.openupm`
+  - `openupm add com.marc-antoine-girard.openupm`
+
+![image](https://github.com/user-attachments/assets/56072012-81cf-46ea-82e9-fba0c28bb8b3)
 
 ## Contributions
 

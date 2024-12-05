@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System;
+﻿using System;
 using System.Reflection;
 
 namespace ShackLab.OpenUPM.Editor
@@ -30,4 +29,3 @@ namespace ShackLab.OpenUPM.Editor
         public static object Root => _rootField.GetValue(Instance);
     }
 }
-#endif

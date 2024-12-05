@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace ShackLab.OpenUPM.Editor
 {
@@ -17,4 +16,3 @@ namespace ShackLab.OpenUPM.Editor
         public object AddMenu => _addMenuProperty.GetValue(_rootObject);
     }
 }
-#endif

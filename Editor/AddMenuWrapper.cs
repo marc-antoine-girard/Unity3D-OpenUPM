@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace ShackLab.OpenUPM.Editor
 {
@@ -28,4 +27,3 @@ namespace ShackLab.OpenUPM.Editor
         }
     }
 }
-#endif

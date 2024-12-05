@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 using UnityEditor.PackageManager;
@@ -41,4 +40,3 @@ namespace ShackLab.OpenUPM.Editor
         }
     }
 }
-#endif

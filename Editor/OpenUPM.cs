@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System;
+﻿using System;
 using UnityEditor;
 using Debug = UnityEngine.Debug;
 
@@ -42,6 +41,7 @@ namespace ShackLab.OpenUPM.Editor
             dropdownItemWrapper.Text = "Install package from OpenUPM...";
             Action originalAction = dropdownItemWrapper.Action;
             dropdownItemWrapper.Action = originalAction + OnClick;
+            return;
 
             void OnClick()
             {
@@ -58,9 +58,7 @@ namespace ShackLab.OpenUPM.Editor
 
             void OnInputSubmitted(string package)
             {
-                package = Utility.NormalizeCommand(package);
-
-                if (Utility.IsValidPackageName(package))
+                if (Utility.IsValidPackageName(package, out package))
                 {
                     CommandLineUtility.RunCommand($"openupm add \"{package}\"").ConfigureAwait(false);
                 }
@@ -70,10 +68,5 @@ namespace ShackLab.OpenUPM.Editor
                 }
             }
         }
-
-
-
-
     }
 }
-#endif
