@@ -50,4 +50,5 @@ Here's a simple example on how to use it:
 
 Pull requests are welcomed. Please feel free to fix any issues you find, or add new features.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bbe1c559502140319ee7da6deed64770)](https://app.codacy.com/gh/marc-antoine-girard/Unity3D-OpenUPM?utm_source=github.com&utm_medium=referral&utm_content=marc-antoine-girard/Unity3D-OpenUPM&utm_campaign=Badge_Grade)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R6EBROQ)
