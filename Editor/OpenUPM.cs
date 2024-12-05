@@ -4,25 +4,15 @@ using Debug = UnityEngine.Debug;
 
 namespace ShackLab.OpenUPM.Editor
 {
-    [InitializeOnLoad]
     public static class OpenUPM
     {
-        static OpenUPM()
-        {
-            EditorApplication.delayCall += Update;
-        }
-
-        private static void Update()
+        internal static void Update()
         {
             var packageInstance = PackageManagerWindowWrapper.Instance;
 
             if (packageInstance != null)
             {
                 HandlePackageManagerReady();
-            }
-            else
-            {
-                PackageManagerWindowWrapper.AddOnPackageManagerReadyHandler(HandlePackageManagerReady);
             }
         }
 
@@ -58,14 +48,8 @@ namespace ShackLab.OpenUPM.Editor
 
             void OnInputSubmitted(string package)
             {
-                if (Utility.IsValidPackageName(package, out package))
-                {
-                    CommandLineUtility.RunCommand($"openupm add \"{package}\"").ConfigureAwait(false);
-                }
-                else
-                {
-                    Debug.LogError($"Invalid package name: {package}");
-                }
+                package = Utility.NormalizeCommand(package);
+                CommandLineUtility.RunCommand($"openupm add \"{package}\"").ConfigureAwait(false);
             }
         }
     }
