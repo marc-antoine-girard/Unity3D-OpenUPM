@@ -4,7 +4,7 @@ using Debug = UnityEngine.Debug;
 
 namespace ShackLab.OpenUPM.Editor
 {
-    public static class OpenUPM
+    internal static class OpenUPM
     {
         internal static void Update()
         {

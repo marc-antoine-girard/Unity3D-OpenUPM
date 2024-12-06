@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace ShackLab.OpenUPM.Editor
 {
-    public static class PackageManagerWindowWrapper
+    internal static class PackageManagerWindowWrapper
     {
         private static readonly Type _type;
         private static readonly PropertyInfo _instanceProperty;
@@ -16,8 +16,8 @@ namespace ShackLab.OpenUPM.Editor
             _rootField = _type.GetField("m_Root", BindingFlags.Instance | BindingFlags.NonPublic);
         }
 
-        public static object Instance => _instanceProperty.GetValue(null);
+        internal static object Instance => _instanceProperty.GetValue(null);
 
-        public static object Root => _rootField.GetValue(Instance);
+        internal static object Root => _rootField.GetValue(Instance);
     }
 }

@@ -2,7 +2,7 @@
 
 namespace ShackLab.OpenUPM.Editor
 {
-    public class RootWrapper
+    internal class RootWrapper
     {
         private readonly object _rootObject;
         private readonly PropertyInfo _addMenuProperty;

@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace ShackLab.OpenUPM.Editor
 {
-    public class DropdownItemWrapper
+    internal class DropdownItemWrapper
     {
         private readonly object _dropdownItemObject;
         private readonly PropertyInfo _textProperty;

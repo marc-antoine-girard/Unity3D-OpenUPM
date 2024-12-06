@@ -6,8 +6,7 @@ using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 namespace ShackLab.OpenUPM.Editor
 {
     [InitializeOnLoad]
-
-    public class CustomPackageManagerExtension : IPackageManagerExtension
+    internal class CustomPackageManagerExtension : IPackageManagerExtension
     {
         static CustomPackageManagerExtension()
         {
@@ -16,7 +15,7 @@ namespace ShackLab.OpenUPM.Editor
 
         public VisualElement CreateExtensionUI()
         {
-            // Create a stub VisualElement
+            // Create an empty VisualElement
             var element = new VisualElement();
 
             // Register the AttachToPanelEvent. This gives us a confirmation that the Package Manager UI is opened

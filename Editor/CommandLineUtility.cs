@@ -6,9 +6,9 @@ using UnityEngine;
 
 namespace ShackLab.OpenUPM.Editor
 {
-    public static class CommandLineUtility
+    internal static class CommandLineUtility
     {
-        public static async Task RunCommand(string command)
+        internal static async Task RunCommand(string command)
         {
             await Task.Run(() =>
             {
@@ -20,7 +20,7 @@ namespace ShackLab.OpenUPM.Editor
 #if UNITY_EDITOR_WIN
                     FileName = "cmd.exe",
                     Arguments = $"/c {command}",
-#elif UNITY_EDITOR_OSX || UNITY_EDITOR_LINUX
+#elif UNITY_EDITOR_OSX || UNITY_EDITOR_LINUX // TODO test on Linux and OS yet
                         FileName = "/bin/bash",
                         Arguments = $"-c \"{command}\"",
 #else
